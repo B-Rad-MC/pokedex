@@ -13,4 +13,25 @@ Build the go project in your chosen directory and run the created file
 This is a command line tool. While the "Pokedex > " prompt is on screen, type your commands and press enter to confirm. The first word is the command, while the second word onwards are the parameters. Use the command "help" to see a list of commands.
 
 <H2>Contributing</H2>
-This is an independant project by Brad McNeur, following guidance on a Golang course presented on Boot.dev
+### Clone the repo
+
+```bash
+git clone https://github.com/xyz/zipzod@latest
+cd zipzod
+```
+
+### Build the compiled binary
+
+```bash
+go build
+```
+
+### Run the test suite
+
+```bash
+go test ./...
+```
+
+### Submit a pull request
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
